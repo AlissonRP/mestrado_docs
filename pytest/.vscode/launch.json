@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug com raiz correta",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}", // arquivo aberto no momento
+            "console": "internalConsole",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}" // define a raiz do projeto
+            }
+        }
+    ]
+}
